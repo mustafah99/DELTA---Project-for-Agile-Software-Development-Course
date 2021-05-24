@@ -1,0 +1,78 @@
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\appsettings.Development.json
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\appsettings.json
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.StaticWebAssets.xml
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.exe
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.deps.json
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.runtimeconfig.json
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.runtimeconfig.dev.json
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\ref\DELTA - Ballin Out Web Application.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.Views.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\DELTA - Ballin Out Web Application.Views.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Humanizer.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.csprojAssemblyReference.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.AssemblyInfoInputs.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.AssemblyInfo.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.csproj.CoreCompileInputs.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.MvcApplicationPartsAssemblyInfo.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.RazorAssemblyInfo.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.RazorAssemblyInfo.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\staticwebassets\DELTA - Ballin Out Web Application.StaticWebAssets.Manifest.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\staticwebassets\DELTA - Ballin Out Web Application.StaticWebAssets.xml
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\scopedcss\bundle\DELTA - Ballin Out Web Application.styles.css
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.TagHelpers.input.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.TagHelpers.output.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.RazorCoreGenerate.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.RazorTargetAssemblyInfo.cache
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.RazorTargetAssemblyInfo.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.Views.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.csproj.CopyComplete
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\ref\DELTA - Ballin Out Web Application.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.pdb
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\DELTA - Ballin Out Web Application.genruntimeconfig.cache
