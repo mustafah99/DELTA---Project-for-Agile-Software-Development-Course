@@ -1,31 +1,48 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - DELTA___Ballin_Out_Web_Application</title>
+    <title>@ViewData["Title"] - Ballin Out Events</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav style="background-image: linear-gradient(to bottom right, #192347, #e65177); padding: 15px 0;" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DELTA___Ballin_Out_Web_Application</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <a style=" padding: 0 20px;" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img style="width: auto; height: 35px;" alt="error" src="~/images/Balln Out Logo White.png" />
+                </a>
+                <button style="margin-right: 10px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <div style="text-transform: uppercase; font-weight: lighter;" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul style="font-size: 13px; letter-spacing: 8px;" class="navbar-nav flex-grow-1">
+                        <li style="border-right: 1px solid white;" class="nav-item">
+                            <a style="padding-left: 20px; padding-right: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li style="border-right: 1px solid white;" class="nav-item">
+                            <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Events" asp-action="Index">Events</a>
+                        </li>
+                        <li style="border-right: 1px solid white;" class="nav-item">
+                            <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Contact Us</a>
                         </li>
                     </ul>
-                    <partial name="_LoginPartial" />
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <partial name="_LoginPartial" />
+                    }
+
                 </div>
             </div>
         </nav>
@@ -36,9 +53,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - DELTA___Ballin_Out_Web_Application - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer style="background-image: linear-gradient(to left, #192347, #e65177);" class="footer text-muted">
+        <div style="font-size: 13px; color: white; text-transform: uppercase; font-weight: lighter; letter-spacing: 8px; text-align: center;" class="container">
+            &copy; Ballin Out
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -24,6 +24,16 @@ a {
   border-color: #1861ac;
 }
 
+.nav-link:hover {
+    transform: translate(0px, -2px);
+    transition: all 1s cubic-bezier(0.37, 0.6, 0.55, 1.03);
+}
+
+.book-tickets-nav-link:hover {
+    transform: scale(1.02);
+    transition: all 1s cubic-bezier(0.37, 0.6, 0.55, 1.03);
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
