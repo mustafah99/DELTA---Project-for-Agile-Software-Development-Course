@@ -18,17 +18,17 @@
             <div asp-validation-summary="All" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Input.Email"></label>
-                <input style="width: 500px; margin: 0 auto;" asp-for="Input.Email" class="form-control" />
+                <input placeholder="Enter your email" style="width: 500px; margin: 0 auto;" asp-for="Input.Email" class="form-control" />
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
             <div>
                 <label asp-for="Input.Password"></label>
-                <input style="width: 500px; margin: 0 auto;" asp-for="Input.Password" class="form-control" />
+                <input placeholder="Enter new password" style="width: 500px; margin: 0 auto;" asp-for="Input.Password" class="form-control" />
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
             <div>
                 <label style="padding-top: 20px;" asp-for="Input.ConfirmPassword"></label>
-                <input style="width: 500px; margin: 0 auto;" asp-for="Input.ConfirmPassword" class="form-control" />
+                <input placeholder="Confirm new password" style="width: 500px; margin: 0 auto;" asp-for="Input.ConfirmPassword" class="form-control" />
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
             <button style="margin-top: 30px; border: none; color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase; text-decoration: none; background-color: #dc4f75; width: 250px;" type="submit" class="btn btn-primary">Register</button>
