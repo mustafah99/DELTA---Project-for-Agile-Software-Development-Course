@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav style="background-image: linear-gradient(to bottom right, #192347, #e65177); padding: 15px 0;" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3">
+        <nav style="background-image: linear-gradient(to bottom right, #192347, #e65177); padding: 15px 0;" class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-white box-shadow mb-3">
             <div class="container">
                 <a style=" padding: 0 20px;" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <img style="width: auto; height: 35px;" alt="error" src="~/images/Balln Out Logo White.png" />
@@ -22,18 +22,18 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div style="text-transform: uppercase; font-weight: lighter;" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div style="text-transform: uppercase; font-weight: lighter;" class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
                     <ul style="font-size: 13px; letter-spacing: 8px;" class="navbar-nav flex-grow-1">
-                        <li style="border-right: 1px solid white;" class="nav-item">
+                        <li class="border-breakpoint nav-item" style="border-right: 1px solid white;">
                             <a style="padding-left: 20px; padding-right: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li style="border-right: 1px solid white;" class="nav-item">
+                        <li class="border-breakpoint nav-item" style="border-right: 1px solid white;">
                             <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Events" asp-action="Index">Events</a>
                         </li>
-                        <li style="border-right: 1px solid white;" class="nav-item">
+                        <li class="border-breakpoint nav-item" style="border-right: 1px solid white;">
                             <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="border-breakpoint nav-item">
                             <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
                         </li>
                     </ul>
