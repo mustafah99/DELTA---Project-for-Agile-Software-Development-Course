@@ -18,7 +18,7 @@ namespace DELTA___Ballin_Out_Web_Application.Models
         [MaxLength(50)]
         public string EventLocation { get; set; }
         [Required]
-        [MaxLength(200)]
+        [MaxLength(500)]
         public string EventDescription { get; set; }
         [Required]
         public DateTime EventDate { get; set; } 

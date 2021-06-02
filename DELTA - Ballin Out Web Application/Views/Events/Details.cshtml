@@ -1,48 +1,35 @@
 ﻿@model DELTA___Ballin_Out_Web_Application.Models.Events
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 style="padding: 20px; padding-top: 150px; color: white; letter-spacing: 15px; text-align: center; font-weight: 400; text-transform: uppercase;">@Html.DisplayFor(model => model.EventName)</h1>
 
-<div>
-    <h4>Events</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EventName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EventName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EventImage)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EventImage)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EventLocation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EventLocation)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EventDescription)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EventDescription)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EventDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EventDate)
-        </dd>
-    </dl>
+
+<body style="background: url('@Html.DisplayFor(model => model.EventImage)') no-repeat center center fixed; background-size: cover;">
+</body>
+
+<div style="position: absolute; z-index: -1; top: 0; width: 100%; height: 100%; left: 0; opacity: 0.9; background-image: linear-gradient(to bottom right, #192347, #e65177);">
+
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+    @*<img style="width: 100px; height: auto;" src="@Html.DisplayFor(model => model.EventImage)">*@
+    <p style="color: white; letter-spacing: 2px; text-align: center; font-weight: lighter; text-transform: uppercase;">
+        <strong>@Html.DisplayFor(model => model.EventLocation)</strong>
+    </p>
+    <p style="padding: 20px; color: white; font-size: 20px; text-align: left; font-weight: lighter; text-transform: none;">
+        @Html.DisplayFor(model => model.EventDescription)
+    </p>
+    <p style="padding: 20px; color: white; letter-spacing: 2px; text-align: center; font-weight: 400; text-transform: uppercase;">
+        <strong>Event Date -</strong> @Html.DisplayFor(model => model.EventDate)
+    </p>
+
+@if (SignInManager.IsSignedIn(User)) {
+    <div style="color: white;">
+        <a class="nav-link" style="display: inline-block; text-decoration: none; text-shadow: 1px 1px 8px black; padding: 20px; color: white; letter-spacing: 15px; font-weight: lighter; text-transform: uppercase;" asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+        <a class="nav-link" style="display: inline-block; text-decoration: none; text-shadow: 1px 1px 8px black; padding: 20px; color: white; letter-spacing: 15px; font-weight: lighter; text-transform: uppercase;" asp-action="Index">Back to List</a>
+    </div>
+}

@@ -12,7 +12,29 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\Areas\Identity\Pages\_ViewImports.cshtml"
+using DELTA___Ballin_Out_Web_Application.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\Areas\Identity\Pages\_ViewImports.cshtml"
+using DELTA___Ballin_Out_Web_Application.Areas.Identity.Pages;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"13b82ef97968a56a4de533f67cf3e21d662f41aa", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f1628a1c9aa1b76f5e53c9c3772cf33aa541304", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

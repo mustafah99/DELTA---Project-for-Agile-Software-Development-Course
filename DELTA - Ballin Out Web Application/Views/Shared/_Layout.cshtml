@@ -34,7 +34,7 @@
                             <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Contact Us</a>
+                            <a style="padding-right: 20px; padding-left: 20px;" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
                         </li>
                     </ul>
 
@@ -54,13 +54,22 @@
     </div>
 
     <footer style="background-image: linear-gradient(to left, #192347, #e65177);" class="footer text-muted">
-        <div style="font-size: 13px; color: white; text-transform: uppercase; font-weight: lighter; letter-spacing: 8px; text-align: center;" class="container">
+        <div style="position: relative; font-size: 13px; color: white; text-transform: uppercase; font-weight: lighter; letter-spacing: 8px; text-align: left;" class="container">
             &copy; Ballin Out
+            <div style="font-size: 25px; position: absolute; right: 0; top: 0;">
+                <a href="#" style="color: white; text-align:right;">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#" style="color: white; text-align:right;"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" style="color: white; text-align:right;"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" style="color: white; text-align:right;"><i class="fab fa-snapchat-square"></i></a>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/0c4707a38a.js" crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -178,3 +178,16 @@ C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin O
 C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Events\Details.cshtml.g.cs
 C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Events\Edit.cshtml.g.cs
 C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Events\Index.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
