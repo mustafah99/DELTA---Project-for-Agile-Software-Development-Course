@@ -85,3 +85,9 @@ body {
         border: none !important;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .padding-top-breakpoint {
+        padding-top: 10px;
+    }
+}

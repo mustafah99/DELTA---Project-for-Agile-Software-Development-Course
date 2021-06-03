@@ -4,19 +4,22 @@
     ViewData["Title"] = "Resend email confirmation";
 }
 
-<h1>@ViewData["Title"]</h1>
-<h4>Enter your email.</h4>
+<body style="background-image: linear-gradient(to bottom right, #192347, #e65177);">
+</body>
+
+<h1 style="padding-top: 100px; color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase;">@ViewData["Title"]</h1>
+<h4 style="padding: 20px; color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase;">Enter your email.</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div style="color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase;">
+    <div>
         <form method="post">
             <div asp-validation-summary="All" class="text-danger"></div>
-            <div class="form-group">
+            <div>
                 <label asp-for="Input.Email"></label>
-                <input asp-for="Input.Email" class="form-control" />
+                <input placeholder="Enter your email" style="width: 500px; margin: 0 auto;" asp-for="Input.Email" class="form-control" />
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
-            <button type="submit" class="btn btn-primary">Resend</button>
+            <button style="border: none; margin-top: 20px; color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase; text-decoration: none; background-color: #dc4f75; width: 250px;" type="submit" class="btn btn-primary">Resend</button>
         </form>
     </div>
 </div>
