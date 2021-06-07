@@ -1,0 +1,27 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+<body style="background-image: linear-gradient(to bottom right, #192347, #e65177);">
+
+</body>
+
+<div style="text-align: center; padding-top: 280px;">
+    <h1 style="padding: 20px; padding-bottom: 0!important; color: white; letter-spacing: 15px; text-align: center; font-weight: 400; text-transform: uppercase;">@ViewData["Title"]</h1>
+    @{
+        if (@Model.DisplayConfirmAccountLink)
+        {
+            <p style="color: white; letter-spacing: 15px; text-align: center; font-weight: 400; text-transform: uppercase;">
+                <a class="nav-link" style="text-decoration: none; color: white; letter-spacing: 2px; font-weight: lighter; text-transform: uppercase;" id="confirm-link" href="@Model.EmailConfirmationUrl">Click here to confirm your account</a>
+            </p>
+        }
+        else
+        {
+            <p style="padding: 20px; padding-bottom: 0!important; color: white; letter-spacing: 15px; text-align: center; font-weight: 400; text-transform: uppercase;">
+                Please check your email to confirm your account.
+            </p>
+        }
+    }
+</div>
