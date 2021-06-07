@@ -192,3 +192,4 @@ C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin O
 C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
 C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Workspace\ECUtbildning\C#\DELTA - Ballin Out Web Application\DELTA - Ballin Out Web Application\obj\Debug\net5.0\Razor\Views\Temporary\ComingSoon.cshtml.g.cs
