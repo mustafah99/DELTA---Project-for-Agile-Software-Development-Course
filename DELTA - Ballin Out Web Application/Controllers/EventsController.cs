@@ -29,20 +29,17 @@ namespace DELTA___Ballin_Out_Web_Application.Controllers
         [Route("Events/{id}")]
         public async Task<IActionResult> Details(string id)
         {
-            //if (id == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var events = await _context.Events
-            //    .FirstOrDefaultAsync(m => m.Id == id);
-            //if (events == null)
-            //{
-            //    return NotFound();
-            //}
+            if (id == null)
+            {
+                return NotFound();
+            }
 
             var events = await _context.Events
                 .FirstOrDefaultAsync(m => m.EventName == id);
+            if (events == null)
+            {
+                return NotFound();
+            }
 
             return View(events);
         }
@@ -59,6 +56,7 @@ namespace DELTA___Ballin_Out_Web_Application.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Events/Create/NewEvent")]
         public async Task<IActionResult> Create([Bind("Id,EventName,EventImage,EventLocation,EventDescription,EventDate")] Events events)
         {
             if (ModelState.IsValid)
