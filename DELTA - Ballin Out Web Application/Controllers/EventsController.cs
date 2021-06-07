@@ -25,25 +25,30 @@ namespace DELTA___Ballin_Out_Web_Application.Controllers
             return View(await _context.Events.ToListAsync());
         }
 
-        // GET: Events/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: Events/Details/EventName
+        [Route("Events/{id}")]
+        public async Task<IActionResult> Details(string id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
+
+            //var events = await _context.Events
+            //    .FirstOrDefaultAsync(m => m.Id == id);
+            //if (events == null)
+            //{
+            //    return NotFound();
+            //}
 
             var events = await _context.Events
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (events == null)
-            {
-                return NotFound();
-            }
+                .FirstOrDefaultAsync(m => m.EventName == id);
 
             return View(events);
         }
 
         // GET: Events/Create
+        [Route("Events/Create/NewEvent")]
         public IActionResult Create()
         {
             return View();

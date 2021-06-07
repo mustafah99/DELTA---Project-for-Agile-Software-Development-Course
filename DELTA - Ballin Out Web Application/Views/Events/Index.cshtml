@@ -31,7 +31,7 @@
     {
         <div style="position: relative; padding: 20px; border: 2px solid white; margin: 20px auto;">
             <h1 class="book-tickets-nav-link">
-                <a style="color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase; text-decoration: none;" asp-action="Details" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.EventName)</a>
+                <a style="color: white; letter-spacing: 15px; text-align: center; font-weight: lighter; text-transform: uppercase; text-decoration: none;" asp-action="Details" asp-route-id="@item.EventName">@Html.DisplayFor(modelItem => item.EventName)</a>
             </h1>
             <p style="color: white; letter-spacing: 15px; font-weight: lighter; text-transform: uppercase">@Html.DisplayFor(modelItem => item.EventLocation)</p>
             <p style="color: white; letter-spacing: 15px; font-weight: lighter; text-transform: uppercase">@Html.DisplayFor(modelItem => item.EventDate)</p>
