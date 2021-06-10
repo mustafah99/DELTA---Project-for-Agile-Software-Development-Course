@@ -44,61 +44,61 @@ namespace DELTA___Ballin_Out_Web_Application
 
         // PUT: api/EventsAPI/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutEvents(int id, Events events)
-        {
-            if (id != events.Id)
-            {
-                return BadRequest();
-            }
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> PutEvents(int id, Events events)
+        //{
+        //    if (id != events.Id)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            _context.Entry(events).State = EntityState.Modified;
+        //    _context.Entry(events).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!EventsExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    try
+        //    {
+        //        await _context.SaveChangesAsync();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!EventsExists(id))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
         // POST: api/EventsAPI
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Events>> PostEvents(Events events)
-        {
-            _context.Events.Add(events);
-            await _context.SaveChangesAsync();
+        //[HttpPost]
+        //public async Task<ActionResult<Events>> PostEvents(Events events)
+        //{
+        //    _context.Events.Add(events);
+        //    await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetEvents", new { id = events.Id }, events);
-        }
+        //    return CreatedAtAction("GetEvents", new { id = events.Id }, events);
+        //}
 
         // DELETE: api/EventsAPI/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteEvents(int id)
-        {
-            var events = await _context.Events.FindAsync(id);
-            if (events == null)
-            {
-                return NotFound();
-            }
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteEvents(int id)
+        //{
+        //    var events = await _context.Events.FindAsync(id);
+        //    if (events == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            _context.Events.Remove(events);
-            await _context.SaveChangesAsync();
+        //    _context.Events.Remove(events);
+        //    await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
         private bool EventsExists(int id)
         {
